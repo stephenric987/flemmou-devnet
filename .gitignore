@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+*.private.json
+*keypair*.json
+*wallet*.json
+*.pem
+*.key
+.DS_Store
+Thumbs.db
