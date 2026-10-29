@@ -1,0 +1,16 @@
+{
+  "name": "Flemmou",
+  "symbol": "FLMO",
+  "description": "Flemmou a plein de projets. Il commence demain. Ce gecko expert en procrastination est la mascotte de FLMO, un memecoin de test sur Solana Devnet. Son programme : des mèmes, de l’autodérision et une communauté qui avance à son rythme. Ici, on prend le temps d’apprendre, de créer et de sourire. Toujours motivé. Dès demain.",
+  "image": "https://raw.githubusercontent.com/stephenric987/flemmou-devnet/8e59b4c7ff9eaff989837de5e32863191c5e54ba/assets/flemmou-logo-v1.png",
+  "external_url": "https://github.com/stephenric987/flemmou-devnet",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/stephenric987/flemmou-devnet/8e59b4c7ff9eaff989837de5e32863191c5e54ba/assets/flemmou-logo-v1.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}
