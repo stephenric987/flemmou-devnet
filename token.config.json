@@ -8,5 +8,7 @@
   "freezeAuthority": null,
   "mintAuthorityAfterCreation": null,
   "metadataUri": "",
-  "status": "prototype-not-deployed"
+  "status": "deployed-finalized",
+  "mint": "26FgjbVUdaynajUGiJ3jBFty1fnyf81oTrWKcSLGhHFn",
+  "creationTransaction": "4QwLt65fWuiA2vHNrRYadYhLFZ3JrbyttyAECgGhS996USQJXcf6pJQs8HDaPoyzVFWMxzhYXE1XzyPsekr6eg3e"
 }
