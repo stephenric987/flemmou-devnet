@@ -1,0 +1,12 @@
+{
+  "name": "Flemmou",
+  "symbol": "FLMO",
+  "network": "solana-devnet",
+  "tokenProgram": "Token-2022",
+  "decimals": 6,
+  "initialSupply": "1000000000",
+  "freezeAuthority": null,
+  "mintAuthorityAfterCreation": null,
+  "metadataUri": "",
+  "status": "prototype-not-deployed"
+}
