@@ -4,6 +4,7 @@ import * as metadata from "@solana/spl-token-metadata";
 
 const NAME = "Flemmou";
 const SYMBOL = "FLMO";
+const METADATA_URI = "https://raw.githubusercontent.com/stephenric987/flemmou-devnet/22156f8e26d12576705bae4994e671f30c5f06bf/metadata/flemmou-v1.json";
 const DECIMALS = 6;
 const RAW_SUPPLY = BigInt("1000000000000000");
 const SEED = "flemmou-devnet-v1";
@@ -33,12 +34,13 @@ async function main() {
     const account = await spl.getAccount(connection, ownerAccount, "confirmed", program);
     if (token.supply !== RAW_SUPPLY || token.decimals !== DECIMALS ||
         token.mintAuthority !== null || token.freezeAuthority !== null ||
-        details?.name !== NAME || details?.symbol !== SYMBOL) {
+        details?.name !== NAME || details?.symbol !== SYMBOL || details?.uri !== METADATA_URI) {
       throw new Error("Le token existe mais sa configuration doit etre inspectee.");
     }
     console.log("VERIFIE : Flemmou (FLMO), 1 000 000 000 jetons, 6 decimales.");
     console.log("Emission supplementaire : desactivee. Gel : desactive.");
     console.log("Solde du compte createur (unites de base) :", account.amount.toString());
+    console.log("Logo et presentation :", details.uri);
     console.log("Explorateur :", explorer);
   }
 
@@ -54,7 +56,7 @@ async function main() {
     mint,
     name: NAME,
     symbol: SYMBOL,
-    uri: "", // On-chain name and symbol; no hosted logo/JSON yet.
+    uri: METADATA_URI,
     additionalMetadata: [],
   };
   const mintSpace = spl.getMintLen([spl.ExtensionType.MetadataPointer]);
@@ -80,7 +82,7 @@ async function main() {
       mintAuthority: payer.publicKey,
       name: NAME,
       symbol: SYMBOL,
-      uri: "",
+      uri: METADATA_URI,
     }),
     spl.createAssociatedTokenAccountIdempotentInstruction(
       payer.publicKey, ownerAccount, payer.publicKey, mint, program

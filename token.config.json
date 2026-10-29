@@ -7,8 +7,11 @@
   "initialSupply": "1000000000",
   "freezeAuthority": null,
   "mintAuthorityAfterCreation": null,
-  "metadataUri": "",
+  "metadataUri": "https://raw.githubusercontent.com/stephenric987/flemmou-devnet/22156f8e26d12576705bae4994e671f30c5f06bf/metadata/flemmou-v1.json",
   "status": "deployed-finalized",
   "mint": "26FgjbVUdaynajUGiJ3jBFty1fnyf81oTrWKcSLGhHFn",
-  "creationTransaction": "4QwLt65fWuiA2vHNrRYadYhLFZ3JrbyttyAECgGhS996USQJXcf6pJQs8HDaPoyzVFWMxzhYXE1XzyPsekr6eg3e"
+  "creationTransaction": "4QwLt65fWuiA2vHNrRYadYhLFZ3JrbyttyAECgGhS996USQJXcf6pJQs8HDaPoyzVFWMxzhYXE1XzyPsekr6eg3e",
+  "image": "https://raw.githubusercontent.com/stephenric987/flemmou-devnet/8e59b4c7ff9eaff989837de5e32863191c5e54ba/assets/flemmou-logo-v1.png",
+  "description": "Flemmou a plein de projets. Il commence demain. Ce gecko expert en procrastination est la mascotte de FLMO, un memecoin de test sur Solana Devnet. Son programme : des mèmes, de l’autodérision et une communauté qui avance à son rythme. Ici, on prend le temps d’apprendre, de créer et de sourire. Toujours motivé. Dès demain.",
+  "metadataUpdateTransaction": "5z5KorYVijkVdK8BPBmbyhhM32R8QVTzUvpLv8dgzxnthxcNW8KzkfwUtAUDqu1RpqbXJHQWHbnJw7SawSQ4CRhF"
 }
