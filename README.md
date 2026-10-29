@@ -17,7 +17,13 @@ Les jetons de ce projet sont destinés aux essais techniques.
 
 ## État du projet
 
-Le script a été exécuté dans Solana Playground jusqu'à la construction de la transaction (621 octets) et au contrôle du solde. Il s'est arrêté faute de SOL de test. À ce stade, aucun token n'a été créé et la transaction complète n'a pas encore été validée sur Devnet.
+Le token a été créé sur Solana Devnet. Sa transaction de création est finalisée, sans erreur. La vérification sur la blockchain confirme le nom Flemmou, le symbole FLMO, 6 décimales, une quantité de 1 000 000 000 jetons et des autorités d'émission et de gel absentes.
+
+- Adresse du token : `26FgjbVUdaynajUGiJ3jBFty1fnyf81oTrWKcSLGhHFn`
+- [Voir le token sur l'explorateur Solana Devnet](https://explorer.solana.com/address/26FgjbVUdaynajUGiJ3jBFty1fnyf81oTrWKcSLGhHFn?cluster=devnet)
+- [Transaction de création finalisée](https://explorer.solana.com/tx/4QwLt65fWuiA2vHNrRYadYhLFZ3JrbyttyAECgGhS996USQJXcf6pJQs8HDaPoyzVFWMxzhYXE1XzyPsekr6eg3e?cluster=devnet)
+
+Le compte créateur a reçu l'intégralité de l'émission initiale. Les autorités de mise à jour des métadonnées et du pointeur de métadonnées restent détenues par le portefeuille créateur.
 
 ## Utilisation avec Solana Playground
 
